@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的簡歷</title>
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+
+  <body>
+    <nav id="header">
+      <div class="title">我的<span>簡歷</span></div>
+      <div class="header-links">
+      <ul>
+          <li><a href="#about">關於我</a></li>
+          <li><a href="#mylife">經歷</a></li>
+          <li><a href="#portfolios">大學作品</a></li>
+          <li><a href="#contact">聯繫方式</a></li>
+      </ul>
+      <div>
+  </nav>
+    <nav id="hamburger">
+      <div class="title">我的<span>簡歷</span></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">關於我</a></li>
+          <li><a href="#mylife" onclick="toggleMenu()">經歷</a></li>
+          <li><a href="##portfolios" onclick="toggleMenu()">大學作品</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">聯繫方式</a></li>
+        </div>
+      </div>
+    </nav>
+  
+    <section id="about">
+      <div class="about-text-container">
+        <h3 class="about-text-h3">嗨!<span>我是</span></h3>
+        <h1 class="about-text-h1">劉松銘</h1>
+        <h4 class="about-text-h4">我仍在<span>學習</span>的路上<span>前進</span>著</h4>
+        <div class="about-social-icon">
+          <div class="about-social-item">
+            <a href="https://www.instagram.com/sinnnnned26/"><i class='bx bxl-instagram'></i></a>
+          </div>
+          <div class="about-social-item">
+            <a href="https://www.facebook.com/dennis.liu.52/"><i class='bx bxl-facebook-circle' style='color:#2b7e9a'></i></a>
+          </div>
+          <div class="about-social-item">
+            <a href="mailto:songming1111@gmail.com"><i class='bx bxl-gmail' style='color:#c72f71'></i></a>
+          </div>
+        </div>
+        <div class="about-dialog-show">
+          <button>關於我</button>
+        </div>
+        <dialog class="about-dialog-info">
+          <h1>謝謝你點開並嘗試了解我!</h1>
+          <ul>
+            <li>你好!我是劉松銘，英文名字是Dennis。</li>
+            <li>生日5/28，雙子座。</li>
+            <li>中原大學畢業，已服完四個月兵役。</li>
+            <li>目前正在學習有關前端的知識，無論是前端設計或工程都想涉獵看看，並期許自己未來能蛻變成為一位出色的工程師。
+            </li>
+          </ul>
+          <div class="about-dialog-close">
+            <button class="btn"><p>關閉</p></button>
+          </div>
+        </dialog>
+    </div>
+    <div class="about-pic-container">
+      <img id="photochange" src="assets/img/dennis.png" alt="Dennis pic"/>
+    </div>
+  </section>
+
+  <!-- mylife Section -->
+  <section id="mylife">
+    <div class="mylife">
+      <div class="mylife-text">
+        <h3 class="mylife-text-h3"><span>我</span>的<span>人生</span>小事</h3>
+        <p class="mylife-text-p">那些<span>回憶</span>起來會讓我<span>微微笑著</span>的</p>
+      </div>
+      <div class="mylife-bottom">
+        <div class="mylife-imgpack">
+          <div class="mylife-img-container">
+            <div class="mylife-img-item">
+              <img src="assets/img/syue.jpeg" alt="mountainSyue" />
+              <div class="content">
+                <h2>5/1雪山單攻</h2>
+                <p>大三五月初的時候去雪山挑戰單攻，路程來回快30公里，凌晨就上山開始走，單攻雪山真的很累，全程基本都是陡上，看到平一點的坡度真的會偷笑。<br>最後一段短短的幾百公尺非常累，碎石坡加上路小，旁邊沒有護欄，最多就只能讓兩個人並肩，坡度非常陡，光這段就爬了快兩小時了，但事後回想也是一次很有趣的經驗。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mylife-imgpack">
+          <div class="mylife-img-container">
+            <div class="mylife-img-item">
+              <img src="assets/img/baseball.jpg" alt="baseball" />
+              <div class="content">
+                <h2>和高中匪類們看棒球</h2>
+                <p>第一次跟朋友們一起去棒球場看棒球，還記得那時候樂天桃猿有個爭議事件，我朋友就帶著一張紙上面寫著球是猿的然後舉著，沒多久就被類似球場保全的人來警告不要有這樣的行為，後來那位保全就拿著一顆球來送給我朋友說這送你，以後別再這樣了，這突如其來的禮物。著實有趣。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mylife-imgpack">
+          <div class="mylife-img-container">
+            <div class="mylife-img-item">
+              <img src="assets/img/river-tracking.png" alt="river" />
+              <div class="content">
+                <h2>畢業後的偽暑假-花蓮行</h2>
+                <p>畢業後和大學朋友開著車跑到花蓮去玩三天兩夜，在包棟民宿裡玩真的很開心，期間也去了很多地方逛逛看看吃吃，照片是第二天我們去溯溪王辦的團體初級溯溪體驗，之前我滿常跟家人去溯溪，很多簡單的困難的溪都去過了，本來是沒什麼興趣參加這個，但後來被朋友拖著只好參加，一整團很多人，我在過程中也發現了一些不一樣的樂趣，算是沒後悔參加這個活動了。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mylife-imgpack">
+          <div class="mylife-img-container">
+            <div class="mylife-img-item">
+              <img src="assets/img/puxin.png" alt="puxin" />
+              <div class="content">
+                <h2>埔心牧場畢業照拍拍</h2>
+                <p>記得那時候我們一直很想穿畢業服在各個地方多拍幾張照片紀念，於是就近跑到埔心牧場，那時候有一個朋友出了小車禍沒跟到，他說因為要去收驚，確實滿好笑的，只能說有些事情就是要有一些小插曲才更增添有趣。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mylife-imgpack">
+          <div class="mylife-img-container">
+            <div class="mylife-img-item">
+              <img src="assets/img/taic.jpg" alt="taichung" />
+              <div class="content">
+                <h2>高中同學殺台中</h2>
+                <p>大學時期跟高中匪類同學們出去玩，坐在同學的小破車上顛簸到台中，不得不說全是男生的旅行真的很好玩，沿途一直耍白癡，照片還跟一群男人看夕陽，畫面有點奇怪，但真的玩得很開心。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mylife-imgpack">
+          <div class="mylife-img-container">
+            <div class="mylife-img-item">
+              <img src="assets/img/gold.jpg" alt="gold" />
+              <div class="content">
+                <h2>高中同學黃金梯田露營</h2>
+                <p>某天突然被找去露營，這次算是我第一次懶人露營，之前也有跟老爸爬山露營的經驗，不過那很克難，這黃金梯田豪華多了，睡得好吃得好，不過我記得可惜的是晚上不能太吵，畢竟還有別人，雖然還是有好好玩到就是了。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- End mylife Section -->
+
+  
+  <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>

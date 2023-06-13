@@ -1,0 +1,118 @@
+
+  
+  @media screen and (max-width: 1200px) {
+    #header {
+      display: none;
+    }
+    #hamburger {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      top: 0%;
+      background-color: #29323c;;
+      height: 10vh;
+    }
+    .about-pic-container{
+      justify-content: center;
+    }
+    
+    #services .service-bottom .service-item {
+      flex-basis: 45%;
+      margin: 1.5%;
+    }
+
+
+    .title span{
+        color:#BF0060 ;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    #services .service-bottom .service-item {
+      flex-basis: 80%;
+      margin: 1.5%;
+    }
+
+    .mylife-imgpack{
+      margin: 10px auto;
+    }
+
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2.2rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .about-pic-container {
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+
+    .about-text-h3, 
+    .about-text-h1,
+    .about-text-h4,
+    .about-dialog-show{
+      text-align: center;
+    }
+
+    .about-social-icon{
+      justify-content: center;
+    }
+    
+    
+  }
+  
